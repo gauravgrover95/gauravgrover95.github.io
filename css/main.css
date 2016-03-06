@@ -4,10 +4,14 @@
    Author's custom styles
    ========================================================================== */
 
+* {
+	/*border: 1px solid black;*/
+}
+
 body {
 	padding: 0;
 	overflow-x: hidden;
-	font-size: 1.4vw;
+	font-size: 1.5vw;
 }
 
 
@@ -38,6 +42,11 @@ body {
 	width: 100vw;
 	padding: 0;
 	margin: 0 0 0 0;
+}
+
+#nav-drop {
+	display: inline-block;
+	background: transparent !important;
 }
 
 
