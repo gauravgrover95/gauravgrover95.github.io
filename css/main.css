@@ -1,0 +1,56 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	padding: 0;
+	overflow-x: hidden;
+	font-size: 1.4vw;
+}
+
+
+
+.jumbotron {
+	height: 100vh;
+	background: url(../img/nobi.jpg);
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	color: royalblue;
+	font-size: 1.2em;
+}
+
+.navbar {
+	display: block;
+	margin: 0;
+	position: static;
+	background: transparent;
+	border: 0;
+}
+
+#introduction {
+	background: lightgrey;
+	height: 60vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
