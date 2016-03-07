@@ -126,6 +126,7 @@ body {
 
 /*Introduction*/
 #introduction {
+	position: relative;
 	background: #F5F5F5;
 	height: 60vh;
 	width: 100vw;
@@ -139,6 +140,20 @@ body {
 	font-size: 1.4em;
 }
 
+p.know-more {
+	position: absolute;
+	display: inline-table;
+	margin-left: 45.3%;
+	border: 1px solid #8CC63F;
+	bottom: 0;
+	padding: 4px 6px;
+	color: #8CC63F;
+	font-size: 0.85em;
+}
+
+p.know-more span {
+	margin-left: 8px;
+}
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
     body {
