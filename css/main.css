@@ -280,6 +280,7 @@ p.know-more span {
 	width: 100px;
 	left: -2vw;
 	bottom: -5vh;
+	background: white;
 }
 
 .review-card .author {
