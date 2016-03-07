@@ -290,7 +290,35 @@ p.know-more span {
 	left: 6vw;
 }
 
+/* Slider / Features */
+.slider div {
+	height: 60vh;
+	/*background: #F5F5F5;*/
+}
 
+.slider div img{
+	height: 60vh;
+	width: 100vw;
+}
+
+.feature-card {
+	margin-left: 20vw;
+}
+
+.stats {
+	height: 35vh;
+	width: 100vw;
+	background: #666666;
+}
+
+
+/* Footer */
+
+body > footer {
+	background: #3A3F44;
+	height: 40vh;
+	color: #F2F2F3;
+}
 
 
 
