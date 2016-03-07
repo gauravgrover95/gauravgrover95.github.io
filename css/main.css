@@ -248,13 +248,46 @@ p.know-more span {
 
 
 
-.asides {
+.reviews {
 	background: #3BBCEB;
 	height: 60vh;
 	width: 100vw;
 }
 
+.review-card {
+	position: relative;
+	display: table;
+	margin: auto;
+	width: 45vw;
+	background: #BDCCD4;
+	border: 1px solid darkgrey;
+	margin-top: 17vh;
+	border-radius: 18px;
+	height: 32vh;
+	padding: 2vh 5vh;
 
+}
+
+.review-card p {
+	font-size: 0.8em;
+}
+
+.review-card #dp {
+	position: absolute;
+	border-radius: 100%;
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	left: -2vw;
+	bottom: -5vh;
+}
+
+.review-card .author {
+	display: inline;
+	position: absolute;
+	bottom: 0;
+	left: 6vw;
+}
 
 
 
