@@ -214,6 +214,17 @@ p.know-more span {
 	flex: 1;
 }
 
+.card-body {
+	width: 80%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.card-body li {
+	background: lightgrey;
+	list-style: none;
+}
+
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
     body {
