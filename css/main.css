@@ -111,13 +111,9 @@ body {
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
     body {
-    	font-size: 18px;
-
+    	font-size: 12px;
     }
 
-    .jumbotron {
-		background: red;
-	}
 }
 
 
