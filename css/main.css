@@ -8,13 +8,20 @@
 	/*border: 1px solid black;*/
 }
 
+
 body {
 	padding: 0;
 	overflow-x: hidden;
 	font-size: 1.5vw;
+	font-family: 'Roboto', sans-serif;
 }
 
-
+.icon-calendar {
+	display: inline;
+	float: left;
+	margin-top: 10px;
+	margin-right: 4px;
+}
 
 .jumbotron {
 	height: 100vh;
@@ -23,8 +30,8 @@ body {
 	margin: 0;
 }
 
-.navbar-inverse .navbar-brand {
-	color: royalblue;
+.navbar-inverse .navbar-brand, .icon-calendar {
+	color: #29ABE2;
 	font-size: 1.2em;
 }
 
@@ -35,14 +42,6 @@ body {
 	background: transparent;
 	border: 0;
 	padding-right: 5%;
-}
-
-#introduction {
-	background: lightgrey;
-	height: 60vh;
-	width: 100vw;
-	padding: 0;
-	margin: 0 0 0 0;
 }
 
 #nav-drop {
@@ -125,6 +124,20 @@ body {
 	margin-left: 5px;
 }
 
+/*Introduction*/
+#introduction {
+	background: #F5F5F5;
+	height: 60vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0 0 0 0;
+}
+
+#introduction h3{
+	text-align: center;
+	color: #4D4D4D;
+	font-size: 1.4em;
+}
 
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
