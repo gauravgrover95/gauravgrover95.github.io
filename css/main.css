@@ -109,10 +109,15 @@ body {
 
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 520px) {
     body {
     	font-size: 18px;
+
     }
+
+    .jumbotron {
+		background: red;
+	}
 }
 
 
