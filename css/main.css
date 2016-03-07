@@ -49,6 +49,13 @@ body {
 	background: transparent !important;
 }
 
+.dropdown .btn {
+	background: transparent;
+	color: lightgrey;
+	text-shadow: none;
+	border: none;
+}
+
 
 
 
