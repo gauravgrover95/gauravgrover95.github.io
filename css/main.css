@@ -56,6 +56,56 @@ body {
 	border: none;
 }
 
+.heading {
+	display: inline-block;
+	color: #FFFFFF;
+	margin-left: 8%;
+	margin-top: 12%;
+}
+
+.heading h2 {
+	border-bottom: 1px solid lightgrey;
+	font-size: 2.3em;
+}
+
+.heading p{
+	font-size: 0.7em;
+}
+
+.heading:nth-of-type(2) {
+	margin-top: 12%;
+	margin-left: 22%;
+}
+
+.heading button {
+	display: block;
+	margin:13%;
+	width: 12vw;
+	border: 0;
+	border-radius: 3px;
+	padding: 3.5px;
+	color: #FFFAF0;
+}
+
+.heading button:nth-of-type(1) {
+	background: #3BBCEB;
+}
+
+.heading button:nth-of-type(2) {
+	background: #FFB522;
+}
+
+.heading button:nth-of-type(3) {
+	background: #E84C3D;
+}
+
+.heading button span {
+	margin-left: 3px;
+}
+
+.heading button:nth-child(2) span {
+	margin-left: 38px;
+}
 
 
 
