@@ -73,7 +73,7 @@ body {
 	width: 28px;
 	background: #eee;
 	margin-top: 10px;
-	margin-left: 6vw;
+	margin-left: 4vw;
 }
 
 .user-icon i {
@@ -103,13 +103,16 @@ body {
 }
 
 .heading button {
+	position: relative;
 	display: block;
 	margin:13%;
-	width: 12vw;
+	width: 10.5vw;
 	border: 0;
-	border-radius: 3px;
+	border-radius: 4.5px;
 	padding: 3.5px;
 	color: #FFFAF0;
+	font-size: 0.9em;
+	padding-left: 0.8vw;
 }
 
 .heading button:nth-of-type(1) {
@@ -124,13 +127,15 @@ body {
 	background: #E84C3D;
 }
 
-.heading button span {
-	margin-left: 3px;
+.heading button .right {
+	margin-left: 1.2vw;
 }
 
-.heading button:nth-child(2) span {
-	margin-left: 38px;
+.heading button:nth-of-type(2) .right{
+	margin-left: 3vw;
 }
+
+
 
 
 /*Introduction*/
