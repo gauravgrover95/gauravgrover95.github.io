@@ -44,23 +44,42 @@ body {
 	padding-right: 5%;
 }
 
-.navbar #nav-drop {
+/* Dropdown */
+.navbar .nav-drop {
 	display: inline;
 	background: transparent !important;
 	border: none;
 }
+
 
 .navbar .dropdown .btn {
 	background: transparent;
 	color: #EEE;
 	text-shadow: none;
 	border: none;
+	font-size: 0.96em;
 }
 
 
 .dropdown {
 	/*margin-right: 3%;*/
 }
+
+/*user-icon*/
+.user-icon {
+	display: inline-block;
+	border-radius: 100%;
+	height: 28px;
+	width: 28px;
+	background: #eee;
+	margin-top: 10px;
+	margin-left: 6vw;
+}
+
+.user-icon i {
+	margin-left: 5px;
+}
+
 
 .heading {
 	display: inline-block;
@@ -113,18 +132,6 @@ body {
 	margin-left: 38px;
 }
 
-.user-icon {
-	display: inline-block;
-	border-radius: 100%;
-	height: 28px;
-	width: 28px;
-	background: #eee;
-	margin-top: 10px;
-}
-
-.user-icon i {
-	margin-left: 5px;
-}
 
 /*Introduction*/
 .introduction {
