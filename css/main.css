@@ -159,6 +159,7 @@ p.know-more {
 	display: inline-table;
 	margin-left: 45.3%;
 	border: 1px solid #8CC63F;
+	border-radius: 6px;
 	bottom: 0;
 	padding: 4px 6px;
 	color: #8CC63F;
@@ -318,13 +319,46 @@ p.know-more span {
 	margin-left: 20vw;
 }
 
+
+/* Signup Section */
+.signup {
+	height: 35vh;
+	width: 100vw;
+	color: #656565;
+}
+
+.signup .container {
+	width: 79vw;
+	padding-top: 11vh;
+}
+
+.signup h1 {
+	font-size: 2em;
+}
+
+.signup p {
+	font-size: 0.8em;
+}
+
+.signup #signup-btn {
+	position: relative;
+	bottom: 11vh;
+	border: 1px solid #93C94A;
+	background: transparent;
+	border-radius: 4px;
+	color: #93C94A;
+	float: right;
+}
+
+/* Stats */
 .stats {
 	height: 35vh;
 	width: 100vw;
 	background: #666666;
+	padding-left: 6vw;
+	padding-right: 4vw;
 }
 
-/* Stats */
 .stat-card {
 	display: inline-block;
 	width: 24%;
@@ -332,19 +366,26 @@ p.know-more span {
 	color: white;
 	vertical-align: middle !important;
 	height: 18vh;
-	margin-top: 8vh;
+	margin-top: 6vh;
+}
+
+.stat-card h1 {
+	font-weight: bold;
+	font-size: 3em;
 }
 
 /* Footer */
 
 body > footer {
 	background: #3A3F44;
-	height: 40vh;
+	height: 60vh;
 	color: #F2F2F3;
 }
 
+body > footer .container{
+	width: 77vw;
 
-
+}
 
 
 
