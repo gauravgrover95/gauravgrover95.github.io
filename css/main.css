@@ -342,11 +342,11 @@ p.know-more span {
 
 .signup #signup-btn {
 	position: relative;
-	bottom: 11vh;
-	border: 1px solid #93C94A;
+	bottom: 11vh; 
+	border: 1px solid #94CA4C;
 	background: transparent;
 	border-radius: 4px;
-	color: #93C94A;
+	color: #94CA4C;
 	float: right;
 }
 
