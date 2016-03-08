@@ -44,17 +44,19 @@ body {
 	padding-right: 5%;
 }
 
-#nav-drop {
-	display: inline-block;
+.navbar #nav-drop {
+	display: inline;
 	background: transparent !important;
+	border: none;
 }
 
-.dropdown .btn {
+.navbar .dropdown .btn {
 	background: transparent;
 	color: #EEE;
 	text-shadow: none;
 	border: none;
 }
+
 
 .dropdown {
 	/*margin-right: 3%;*/
