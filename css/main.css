@@ -172,7 +172,6 @@ p.know-more span {
 	padding: 0;
 	border-radius: 5px;
 	width: 18vw;
-	/*height: 40vh;*/
 	position: relative;
 	display: inline-block;
 	text-align: center;
@@ -311,6 +310,16 @@ p.know-more span {
 	background: #666666;
 }
 
+/* Stats */
+.stat-card {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	color: white;
+	vertical-align: middle !important;
+	height: 18vh;
+	margin-top: 8vh;
+}
 
 /* Footer */
 
