@@ -1,0 +1,61 @@
+
+body {
+	padding: 0;
+	overflow-x: hidden;
+	font-size: 1.5vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav .navbar{
+	background: #F4F4F4;
+}
+
+
+.jumbotron {
+	background: #544743;
+	margin-bottom: 0;
+}
+
+.search-box .row {
+	margin-top: 10vh;
+}
+
+#search_param { /* Dropdown containing search parameters */
+	padding: 7.5px;
+	background: #51B7EA;
+	color: white;
+	border: none;
+}
+
+.btn-search {
+	background: #E6E4E5;
+}
+
+.search-box .form-control { /* Search input box */
+	width: 40vw;
+}
+
+.search-box {
+	height: 36vh;
+}
+
+/* navi - navigation below jumbotron */
+.navi {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 0.9em;
+}
+
+.navi a {
+	padding: 0 1vw;
+}
+
+.content {
+	width: 70vw;
+}
+
+.content .subjects div{
+	display: inline-block;
+	width: 12vw;
+	background: grey;
+}
