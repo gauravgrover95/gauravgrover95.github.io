@@ -6,15 +6,20 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* Nav */
+
 nav .navbar{
 	background: #F4F4F4;
 }
 
+/* Jumbotron */
 
 .jumbotron {
 	background: #544743;
 	margin-bottom: 0;
 }
+
+/* Search box */
 
 .search-box .row {
 	margin-top: 10vh;
@@ -47,8 +52,14 @@ nav .navbar{
 }
 
 .navi a {
-	padding: 0 1vw;
+	margin: 0 1vw;
 }
+
+.navi .active {
+	border-bottom: 2px solid #82C1CD;
+}
+
+/* Contents */
 
 .content {
 	width: 70vw;
@@ -58,4 +69,39 @@ nav .navbar{
 	display: inline-block;
 	width: 12vw;
 	background: grey;
+}
+
+#chemi {
+	background: #51B7EA;
+}
+
+#maths {
+	background: #FAB726;
+}
+
+#phy {
+	background: #E04D41;
+}
+
+/* Footer */
+
+body > footer {
+	background: #3A3F44;
+	/*height: 60vh;*/
+	height: auto;
+	color: #F2F2F3;
+}
+
+body > footer .container{
+	width: 77vw;
+	padding-top: 12vh;
+}
+
+body > footer img {
+	width: 16vw;
+	height: 3vw;
+}
+
+body > footer ul li {
+	display: inline;
 }
