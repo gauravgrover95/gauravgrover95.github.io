@@ -8,9 +8,28 @@ body {
 
 /* Nav */
 
-nav .navbar{
-	background: #F4F4F4;
+.navbar {
+	position: static;
+	margin-bottom: 0;
+	background: #F5F5F5;
+	padding-top: 8px;
 }
+
+.navbar .logo {
+	width: 10vw;
+	height: 20px;
+}
+
+.user-icon {
+	float: right;
+}
+
+.blog-link {
+	color: #4D4D4D;
+	float: right;
+	margin-right: 6vw;
+}
+
 
 /* Jumbotron */
 
