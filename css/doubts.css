@@ -82,13 +82,29 @@ body {
 
 .content {
 	width: 70vw;
+	height: 500px;
+	color: #484848;
 }
 
+
 .content .subjects div{
+	position: relative;
 	display: inline-block;
 	width: 12vw;
 	background: grey;
+	height: 170px;
+	border-radius: 10px;
+	margin-right: 2vw;
+	font-size: 0.9em;
+	color: white;
+	text-indent: 10px;
 }
+
+.content .subjects div span {
+	position: absolute;
+	bottom: 0;
+}
+
 
 #chemi {
 	background: #51B7EA;
@@ -99,7 +115,45 @@ body {
 }
 
 #phy {
-	background: #E04D41;
+	background: #FB0037;
+}
+
+/* Index of Contents */
+
+.content .index {
+	font-size: 0.8em;
+}
+
+.content .index-bottom {
+	margin-left: 3vw;
+	margin-top: 65px;
+}
+
+.content .index-bottom button {
+	background: transparent;
+	border: 1px solid #5CB1CE;
+	border-radius: 4px;
+}
+
+.content ul {
+	list-style: none;
+}
+
+.content ul .disk {
+	font-size: 0.9em;
+	margin-right: 4px;
+}
+
+.phy-d {
+	color: #FB0037;
+}
+
+.maths-d {
+	color: #FAB726;
+}
+
+.chemi-d {
+	color: #51B7EA;
 }
 
 /* Footer */
